@@ -34,4 +34,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}:${{ github.base_ref }}
+            ghcr.io/${{ github.repository.lower }}:${{ github.base_ref }}
