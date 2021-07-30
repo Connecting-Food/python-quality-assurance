@@ -26,8 +26,8 @@ In the same fashion, well-known abbreviations of these domain-specific terms are
 ## Usage
 
 ```shell
-docker build --rm -t python-quality-assurance .
-docker run --rm -it -v $PWD/app:/app python-quality-assurance
+docker build --rm -t ghcr.io/Connecting-Food/python-quality-assurance:latest .
+docker run --rm -it -v $PWD/app:/app ghcr.io/Connecting-Food/python-quality-assurance:latest
 ```
 
 ## Contributing
